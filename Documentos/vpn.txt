@@ -1,0 +1,4 @@
+VPN: Servico de VPN destinado ao acesso de recursos da EBnet através da Internet
+
+VPN_C2: Servico de VPN destinado EXCLUSIVAMENTE a militares que farão uso do C2 em combate
+

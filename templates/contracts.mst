@@ -1,0 +1,16 @@
+<p style="font-size: 15px;  font-weight: 700; text-align:center"> TERMOS DE USO</p>
+<ul class="nav nav-tabs">
+	{{#services}}
+	<li id="li{{.}}"><a id="contract" data-service="{{.}}" href="#">{{.}}</a></li>
+	{{/services}}
+</ul>
+<div  id = "termos"  class="pre-scrollable " ></div>
+<fieldset>
+{{#services}}
+	<div style="padding-top: 5px; font-size: 15px;  font-weight: 700; text-align:center" class="checkbox">
+		
+			<input name="aceite-{{.}}" type="checkbox" required> Eu concordo e aceito o termo de adesão do servico de {{.}}.
+		
+	</div>
+	{{/services}}
+</fieldset>

@@ -1,0 +1,92 @@
+<b>1. Objetivo</b>
+
+Orientar o Comandante/Chefe/Diretor sobre os procedimentos a serem adotados em sua Organização Militar, assim como os cuidados a serem seguidos por todos os usuários com autorização de acesso à Internet provida pelo Sistema de Telemática do Exército (SisTEx), através do 2º Centro de Telemática de Área (2º CTA).
+
+<b>2. Considerações Iniciais</b>
+
+a. A Lei no 12.965, de 23 de Abril de 2014, conhecida como <b>Marco Civil da Internet</b> ou <b>Marco Regulatório da Internet</b>, estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil. 
+b. <b>O Marco Regulatório</b> impõe obrigações de responsabilidade civil aos usuários e provedores;
+c. A Legislação, no âmbito do Exército Brasileiro, sobre o acesso seguro à Internet, gerenciada pelo Departamento de Ciência e Tecnologia (DCT), que deve ser seguida por todas as Organizações Militares:
+&nbsp;&nbsp;&nbsp;&nbsp;1) Instruções Gerais para Utilização da Rede Mundial de Computadores pelo Exército Brasileiro (EB10-IG-01.010), 2ª Edição, 2015;
+&nbsp;&nbsp;&nbsp;&nbsp;2) Instruções Reguladoras para Emprego Sistêmico da Informática no Exército Brasileiro (IREMSI);
+&nbsp;&nbsp;&nbsp;&nbsp;3) Normas para Emprego Sistêmico da Informática no âmbito do Departamento de Ciência e Tecnologia (NEMSI/CT);
+&nbsp;&nbsp;&nbsp;&nbsp;4) Instruções Reguladoras sobre Auditoria de Segurança de Sistemas de Informação do Exército Brasileiro (IRASEG);
+&nbsp;&nbsp;&nbsp;&nbsp;5) Instruções Reguladoras sobre Segurança da Informação nas Redes de Comunicação e de Computadores do Exército Brasileiro (IRESER);
+&nbsp;&nbsp;&nbsp;&nbsp;6) Instruções Reguladoras sobre Análise de Riscos para Ambientes de Tecnologia da Informação do Exército Brasileiro (IRRISC);
+&nbsp;&nbsp;&nbsp;&nbsp;7) Instruções Gerais de Segurança da Informação e Comunicações para o Exército Brasileiro (EB10-IG-01.014);
+&nbsp;&nbsp;&nbsp;&nbsp;8) Normas para o Controle da Utilização dos Meios de Tecnologia da Informação no Exército (NORTI);
+&nbsp;&nbsp;&nbsp;&nbsp;9) Manual de Campanha (C-30-3), Contra inteligência, Estado Maior do Exército, 2ª Edição, 2009; e
+&nbsp;&nbsp;&nbsp;&nbsp;10) Cartilha Emergencial de Segurança de Tecnologia da Informação e Comunicações.
+d. A legislação vigente define o uso aceitável da Internet, impondo a todos os agentes, no âmbito da sua competência, a obrigação de aderir a todos os procedimentos necessários para a manutenção da Segurança da Informação, assim como cumpri-las;
+e. Para permitir um acesso seguro, confiável e controlado à Rede Mundial de Computadores (Internet), o DCT, através do Sistema Integrado de Telemática do Exército (SisTEx), formado pelas Organizações Militares de Telemática (CITEx/CTA/CT), desenvolveu um projeto denominado Provedor Regional de Internet (PRI) que, na área da 1ª Região Militar, é gerenciado pelo 2º CTA;
+f. O provimento da Internet pelo 2º CTA será realizado utilizando-se a infraestrutura da Rede Corporativa de Dados do Exército (EBNet), que atualmente atende à OM;
+g. Todas as medidas e critérios definidos visam atender aos três pilares da Segurança da Informação: 
+&nbsp;&nbsp;&nbsp;&nbsp;1)<b>  Confidencialidade:</b> informação acessível somente por pessoas autorizadas;
+&nbsp;&nbsp;&nbsp;&nbsp;2)<b>  Integridade:</b> salvaguarda da exatidão da informação; e
+&nbsp;&nbsp;&nbsp;&nbsp;3)<b>  Disponibilidade:</b> acesso às informações por usuários autorizados sempre que necessário.
+
+<b>3. Provimento de Internet</b>
+
+a. O acesso à Internet, provido pelo 2º CTA, será disponibilizado à OM através da Rede Corporativa de Dados do Exército (EBNet), 24 horas por dia e 7 dias por semana;
+b. Será possível, através do Portal de Serviços, realizar a conexão com a Internet, bem como acessar todas as orientações e documentos de interesse da Organização Militar relativas ao assunto;
+c. Quando houver necessidade de interrupção no serviço de Internet para manutenção preventiva ou corretiva da infraestrutura das redes e sistemas do 2° CTA ou, ainda, pelas empresas provedoras externas (operadoras), o 2° CTA manifestará em seus veículos de comunicação, o período de indisponibilidade do serviço;
+d. A Organização Militar, através de sua Seção de Informática/Telemática, deverá consultar constantemente o Portal de Serviços do 2º CTA para manter-se informada sobre possíveis paralizações na operação da EBNet, Internet e RITEx. 
+
+<b>4. Central de Atendimento:</b>
+
+a. O 2° CTA coloca à disposição da OM uma Central de Atendimento para apoio e suporte técnico, com os seguintes canais de comunicação:
+1) Telefone:
+&nbsp;&nbsp;&nbsp;&nbsp;a) RITEx: <b>810-5695;</b>
+&nbsp;&nbsp;&nbsp;&nbsp;b) PABX: <b>(21) 2519-5695;</b>
+&nbsp;&nbsp;&nbsp;&nbsp;c) Horário de atendimento por telefone:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Segunda à quinta-feira:  das <b>08 h 30 min às 16 h;</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Sexta-feira:  de <b>08 h às 12h.</b>
+2) E-mail: <b>atendimento@2cta.eb.mil.br;</b>
+3) Intranet: http://intranet.2cta.eb.mil.br;
+4) Portal de Serviços: http://servicos.2cta.eb.mil.br/portal.
+
+b. O contato com a Central de Atendimento deverá ser realizado pela Seção de Informática/Telemática ou pelo Gestor de Internet da OM, de forma a possibilitar a troca de informações técnicas e a realização de procedimentos na rede de informática da OM que possibilitem a prestação de um melhor suporte técnico;
+c. O suporte técnico aos militares da OM deverá ser realizado pela Seção de Informática/Telemática da OM;
+d. As solicitações encaminhadas através dos canais de comunicação e-mail, Intranet e Portal de Serviços serão analisadas no horário de atendimento descrito acima;
+e. O acesso a qualquer canal de comunicação irá gerar um protocolo, com o qual a Seção de Informática/Telemática da OM poderá acompanhar a solicitação;
+f. As solicitações serão direcionadas à Central de Atendimento (1º Nível) que poderá encaminhar aos outros níveis existentes, de acordo com o tipo de problema apresentado.
+
+<b>5. Responsabilidades</b>
+
+a. Adequar a infraestrutura de Tecnologia da Informação à legislação vigente e as recomendações técnicas do 2° CTA;
+
+b. Conscientizar o público interno para o comprometimento quanto à segurança da informação;
+
+c. Administrar, controlar e fiscalizar o uso do serviço de acesso à Internet, de acordo com  o inciso I, do Artigo 30, das Instruções Gerais para Utilização da Rede Mundial de Computadores pelo Exército Brasileiro (EB10-IG-01.010), 2ª Edição, de 19Mai15, conforme segue abaixo:
+
+	“Art. 30. Devem ser observadas as seguintes normas de segurança para a utilização da Internet:
+		I - o acesso à Internet empregando recursos do EB deve ocorrer somente com a autorização prévia do comandante, chefe ou diretor da OM;”
+
+d. Definir criteriosamente os usuários que terão acesso à Internet e os seus níveis de acesso (perfis). Se for o caso, propor análises e estudos junto à Seção de Inteligência. Ratifica-se a necessidade de avaliação sucinta, pois quanto melhor o levantamento e definição dos perfis, melhor será a qualidade da conexão. Além disso, o Cmt/Ch/Dir de OM estará adotando medidas de segurança de acesso à informação, conforme prevê o Manual de Contrainteligência (C 30-3). Os perfis existentes são:
+	1) Perfil 0 – recomendado para militares com maiores restrições, limitando o acesso a sítios, de uma forma geral, governamentais e educacionais.
+	2) Perfil 1 – recomendado à grande maioria dos militares. Além das permissões associadas ao Perfil 0, inclui acesso a sítios de pesquisa para compras, finanças, notícias, saúde e imagens, entre outros. Não inclui acesso a vídeos.	         
+	3) Perfil 2 – recomendado para militares inscritos em cursos institucionais, como os de aperfeiçoamento, extensão e especialização, por permitir acesso a áudio e vídeo sob demanda. 
+	4) Perfis 3 a 6 – reservados para uso futuro.
+	5) Perfil 7 – recomendado para militares integrantes das Seções de Tecnologia da Informação das OM. Permite baixar arquivos executáveis, além do acesso ao conteúdo de sítios com informações sobre computadores, redes e segurança. 
+	6) Perfil 8 – recomendado para militares integrantes das Seções de Comunicação Social. Permite acesso a redes sociais, contudo impossibilita a utilização de aplicativos a elas associados. 
+	7) Perfil 9 – recomendado para Cmt/Ch/Dir OM e militares integrantes das Seções de Inteligência. Perfil sem restrições, com exceção daquelas legalmente impostas. 	
+
+e. Nomear um militar para a função de Gestor de Internet da OM, que será responsável pelo controle  dos militares com permissão de acesso à Internet através do Sistema de Controle de Acesso de Usuários (SISCAU).
+
+f. Coordenar as mudanças do Gestor de Internet atentando para que o anterior repasse a senha de manutenção dos cadastros da OM.
+
+g. Publicar todas as nomeações e mudanças referentes ao Gestor de Internet em Boletim Interno da OM;
+
+h. Conscientizar os usuários sobre o Termo de Adesão (ANEXO A) que estabelece as responsabilidades e procedimentos a serem seguidos para utilização dos serviços de acesso à Internet. O Cmt/Ch/Dir OM, na qualidade de usuário de Internet, também precisa estar ciente deste Termo e das orientações elencadas;
+ 
+i. Alertar o Gestor de Internet para as orientações específicas da sua função (ANEXO B); e
+
+j. Acompanhar todos os avisos, orientações, diretrizes, normas, termos e outros tipos de documentos disponíveis no Portal de Serviços do 2° CTA.
+
+<b>6. Conclusão</b>
+
+a. A Internet já está presente no cotidiano da população mundial e consequentemente nas Organizações Militares, sendo muito difícil imaginar sem poder usufruir das diversas facilidades e oportunidades trazidas por esta tecnologia.
+
+b. É necessário manter cuidados e prevenir riscos relacionados ao uso da Internet. Tudo que ocorre nela é real: os dados são reais e as empresas e pessoas com as quais há interação são as mesmas que estão fora dela. Os golpes que são aplicados pela Internet são similares àqueles que ocorrem na rua ou por telefone.
+
+c. A atenção com segurança da informação, incluindo orientações e palestras, é um hábito importante a ser incorporado na rotina da Organização Militar, bem como controlar os usuários que terão acesso à Internet.

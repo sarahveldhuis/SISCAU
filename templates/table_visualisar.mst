@@ -1,0 +1,14 @@
+<table id="Tabela" class="table table-bordered tablesorter">
+	<thead>
+		<tr>
+			<th class="{sorter: 'posto'}">Posto</th><th>Nome de guerra</th><th>Nome completo</th><th>E-mail</th><th>Perfil</th><th>Vpn</th>
+		</tr>
+	</thead>
+	<tbody>
+	{{#users}}
+		<tr>
+			<th>{{posto}}</th><th>{{nomeguerra}}</th><th>{{cn}}</th><th>{{mail}}</th><th>{{servicos.Internet}}</th><th>{{servicos.VPN}}</th>
+		</tr>
+	{{/users}}
+	</tbody>
+</table>

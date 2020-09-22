@@ -1,0 +1,79 @@
+﻿
+//**************array antes do parse**************
+[0]=> array(18) { ["posto"]=> array(2) { ["count"]=> int(1) [0]=> string(3) "Cap" } [0]=> string(5) "posto" 
+["mail"]=> array(2) { ["count"]=> int(1) [0]=> string(27) "carolinalodi@2cta.eb.mil.br" } [1]=> string(4) "mail" 
+["nomeguerra"]=> array(2) { ["count"]=> int(1) [0]=> string(13) "Carolina Lodi" } [2]=> string(10) "nomeguerra" 
+["cpf"]=> array(2) { ["count"]=> int(1) [0]=> string(11) "05134513740" } [3]=> string(3) "cpf" 
+["identidade"]=> array(2) { ["count"]=> int(1) [0]=> string(10) "0100941657" } [4]=> string(10) "identidade" 
+["cn"]=> array(2) { ["count"]=> int(1) [0]=> string(23) "Ana Carolina Pinho Lodi" } [5]=> string(2) "cn" 
+["aceite"]=> array(4) { ["count"]=> int(3) [0]=> string(4) "USER" [1]=> string(8) "Internet" [2]=> string(3) "VPN" } [6]=> string(6) "aceite" 
+["perfil"]=> array(3) { ["count"]=> int(2) [0]=> string(10) "Internet_9" [1]=> string(5) "VPN_1" } [7]=> string(6) "perfil" 
+["count"]=> int(8) ["dn"]=> string(42) "cpf=05134513740,dc=2CTA,dc=eb,dc=mil,dc=br" }
+
+                          for($i=0;$i<$info["count"];$i++){ (184)
+
+                             for($j=0; $j<$info[$i]["count"];$j++){  (18)
+				if(($info[$i][$j] != "perfil")&&($info[$i][$j] != "aceite")){
+					$user[$info[$i][$j]] = $info[$i][$info[$i][$j]][0];
+				}				
+                            }
+                                .......
+                            }
+[0]=> array(6) { ["cn"]=> array(2) { ["count"]=> int(1) [0]=> string(5) "admin" } [0]=> string(2) "cn" 
+["userpassword"]=> array(2) { ["count"]=> int(1) [0]=> string(29) "{MD5}2VbxBBOpyvZ6ap3jAd5DHg==" } [1]=> string(12) "userpassword" 
+["count"]=> int(2) ["dn"]=> string(35) "cn=admin,dc=2CTA,dc=eb,dc=mil,dc=br" } }
+
+array(2) { ["count"]=> int(1) [0]=> array(8) { ["cn"]=> array(2) { ["count"]=> int(1) [0]=> string(5) "admin" } [0]=> string(2) "cn" 
+["cpf"]=> array(2) { ["count"]=> int(1) [0]=> string(11) "01472136730" } [1]=> string(3) "cpf" 
+["userpassword"]=> array(2) { ["count"]=> int(1) [0]=> string(29) "{MD5}6KDpBDHGU/4MKdD5ozGw2w==" } [2]=> string(12) "userpassword" 
+["count"]=> int(3) ["dn"]=> string(35) "cn=admin,dc=2CTA,dc=eb,dc=mil,dc=br" } }
+
+
+
+
+array(2) { ["count"]=> int(1) [0]=> array(6) { ["cn"]=> array(2) { ["count"]=> int(1) [0]=> string(5) "admin" } [0]=> string(2) "cn" 
+["userpassword"]=> array(2) { ["count"]=> int(1) [0]=> string(29) "{MD5}2VbxBBOpyvZ6ap3jAd5DHg==" } [1]=> string(12) "userpassword" 
+["count"]=> int(2) ["dn"]=> string(35) "cn=admin,dc=2CTA,dc=eb,dc=mil,dc=br" } }
+
+array(2) { ["users"]=> array(1) { [0]=> array(1) { [""]=> NULL } } ["count"]=> int(1) }
+
+
+
+
+//**************array depois do parse**************
+[0]=> array(9) { ["posto"]=> string(3) "Cap" 
+["mail"]=> string(27) "carolinalodi@2cta.eb.mil.br" 
+["nomeguerra"]=> string(13) "Carolina Lodi" 
+["cpf"]=> string(11) "05134513740" 
+["identidade"]=> string(10) "0100941657" 
+["cn"]=> string(23) "Ana Carolina Pinho Lodi" 
+["servicos"]=> array(2) { ["Internet_9"]=> int(1) ["VPN_1"]=> int(1) } 
+["dn"]=> string(42) "cpf=05134513740,dc=2CTA,dc=eb,dc=mil,dc=br" 
+["aceite"]=> array(3) { [0]=> string(4) "USER" [1]=> string(8) "Internet" [2]=> string(3) "VPN" } }
+
+
+
+
+
+//**************array antes do parse**************
+[1]=> array(18) { ["nomeguerra"]=> array(2) { ["count"]=> int(1) [0]=> string(5) "Isaac" } [0]=> string(10) "nomeguerra" 
+["mail"]=> array(2) { ["count"]=> int(1) [0]=> string(20) "isaac@2cta.eb.mil.br" } [1]=> string(4) "mail" 
+["posto"]=> array(2) { ["count"]=> int(1) [0]=> string(3) "Cap" } [2]=> string(5) "posto" 
+["cn"]=> array(2) { ["count"]=> int(1) [0]=> string(32) "Isaac Newton Ferreira Santa Rita" } [3]=> string(2) "cn" 
+["identidade"]=> array(2) { ["count"]=> int(1) [0]=> string(10) "0100941855" } [4]=> string(10) "identidade" 
+["cpf"]=> array(2) { ["count"]=> int(1) [0]=> string(11) "05505807780" } [5]=> string(3) "cpf" 
+["aceite"]=> array(4) { ["count"]=> int(3) [0]=> string(4) "USER" [1]=> string(8) "Internet" [2]=> string(3) "VPN" } [6]=> string(6) "aceite" 
+["perfil"]=> array(3) { ["count"]=> int(2) [0]=> string(10) "Internet_9" [1]=> string(5) "VPN_1" } [7]=> string(6) "perfil" 
+["count"]=> int(8) ["dn"]=> string(42) "cpf=05505807780,dc=2CTA,dc=eb,dc=mil,dc=br" }
+
+
+//**************array depois do parse**************
+[1]=> array(9) { ["nomeguerra"]=> string(5) "Isaac" 
+["mail"]=> string(20) "isaac@2cta.eb.mil.br" 
+["posto"]=> string(3) "Cap" 
+["cn"]=> string(32) "Isaac Newton Ferreira Santa Rita" 
+["identidade"]=> string(10) "0100941855" 
+["cpf"]=> string(11) "05505807780" 
+["servicos"]=> array(2) { ["Internet_9"]=> int(1) ["VPN_1"]=> int(1) } 
+["dn"]=> string(42) "cpf=05505807780,dc=2CTA,dc=eb,dc=mil,dc=br" 
+["aceite"]=> array(3) { [0]=> string(4) "USER" [1]=> string(8) "Internet" [2]=> string(3) "VPN" } } 

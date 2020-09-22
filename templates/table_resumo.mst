@@ -1,0 +1,14 @@
+<table id="Tabela" class="table table-bordered table-modifica table-hover ">        
+	<thead>
+		<tr>
+			<th>VPN Autorizadas</th><th>VPN Cadastradas</th><th>VPN Disponíveis</th>
+		</tr>
+	</thead>
+	<tbody>
+	{{#resumo}}
+		<tr>
+			<th>{{vpndisponiveis}}</th><th>{{vpncadastradas}}</th><th>{{vpndiferenca}}</th>
+		</tr>                
+	{{/resumo}}                        
+	</tbody>
+</table>

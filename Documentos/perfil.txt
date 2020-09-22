@@ -1,0 +1,14 @@
+Perfil 0: Recomendado para militares com maiores restrições, permitindo somente o acesso a sites governamentais e educacionais.
+
+Perfil 1: Recomendado à grande maioria dos militares. Além das permissões associadas ao Perfil 0, inclui acesso a sites de pesquisa para compras, finanças, notícias, saúde e imagens, entre outros. Não inclui acesso a vídeos.
+
+Perfil 2: Recomendado para militares inscritos em cursos institucionais, como os de aperfeiçoamento, extensão e especialização, por permitir acesso a áudio e vídeo sob demanda.
+
+Perfil 3-6: Reservados para uso futuro.
+
+Perfil 7: Recomendado para militares integrantes das Seções de Tecnologia da Informação das OM. Permite o download de arquivos executáveis, além do acesso ao conteúdo de sites com informações sobre computadores, redes e segurança.
+
+Perfil 8: Recomendado para militares integrantes das Seções de Comunicação Social. Permite acesso a redes sociais, contudo impossibilita a utilização de aplicativos a elas associados.
+
+Perfil 9:  Recomendado para Cmt/Ch/Dir OM e militares integrantes das Seções de Inteligência. Perfil sem restrições, à exceção daquelas legalmente impostas.
+

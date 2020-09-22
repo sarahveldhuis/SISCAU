@@ -1,0 +1,60 @@
+<h1>ORIENTAÇÕES GESTOR DE INTERNET</h1> 
+
+<b>1. Objetivos</b>
+
+Definir as funções, responsabilidades e estabelecer procedimentos a serem seguidos pelo Gestor de Internet para cadastramento de militares que terão acesso à Rede Mundial de Computadores, através do <b>Sistema de Controle de Acesso de Usuários (SISCAU).</b>
+
+<b>2. Considerações Iniciais</b>
+
+a. O Gestor de Internet é o militar nomeado pelo Cmt/Ch/Dir, em Boletim Interno, com a responsabilidade de cadastrar todos os militares com permissão para acessar a Internet. 
+b. O Sistema de Controle de Acesso à Internet (SisCAU) controlará o acesso à Internet de todos os usuários cadastrados pelo Gestor de Internet da OM;
+c. Quando houver mudança do Gestor, o substituído deverá repassar a senha de acesso ao Sistema, previamente enviada pelo 2º CTA. Todas as mudanças de Gestor deverão ser registradas em Boletim Interno da OM. 
+
+<b>3. Atribuições do Gestor de Internet</b>
+
+a. Cadastrar todos os militares e civis da OM com permissão para acessar a Internet;
+b. Propor ao Cmt/Ch/Dir os perfis de acesso à Internet de cada militar e civil da OM;
+c. Revisar e atualizar, periodicamente, o cadastro dos usuários da OM. O Gestor de Internet poderá responder solidariamente pela veracidade das informações.
+
+<b>4. Observações Importantes sobre Atualização e Segurança</b>
+
+a. É importante e necessário que os computadores de acesso à Internet tenham sistema operacional, antivírus, antispyware e navegadores (browsers) atualizados;
+b. Os usuários deverão concordar com o Termo de Adesão, o qual estabelece as responsabilidades e procedimentos a serem seguidos para acesso à Internet. O Gestor de Internet da OM, na qualidade de usuário de Internet, também precisa estar ciente desse Termo e das orientações elencadas;
+c. Todos os processos e termos estarão disponíveis no Portal de Serviços do 2° CTA, no endereço http://servicos.2cta.eb.mil.br; 
+d. Todas as medidas e critérios definidos visam atender aos três pilares da Segurança da Informação: 
+&nbsp;&nbsp;&nbsp;&nbsp;1)<b>  Confidencialidade:</b> informação acessível somente por pessoas autorizadas;
+&nbsp;&nbsp;&nbsp;&nbsp;2)<b>  Integridade:</b> salvaguarda da exatidão da informação; e
+&nbsp;&nbsp;&nbsp;&nbsp;3)<b>  Disponibilidade:</b> acesso às informações por usuários autorizados, sempre que necessário.
+
+<b>5. Sistema de Controle de Acesso de Usuários à Internet (SISCAU)</b>
+
+a. O Sistema de Controle de Acesso de Usuários (SISCAU) foi desenvolvido pelo 2º CTA com a finalidade de permitir, ao Gestor de Internet da OM, realizar o controle de todos os usuários da OM com permissão de acesso à Internet, isto é, incluir, visualizar e modificar (editar, excluir, reenviar ativação e alterar senha) os militares implantados;
+b. O SISCAU está disponível no Portal de Serviços do 2° CTA, no endereço http://servicos.2cta.eb.mil.br;
+c. O nome de acesso (login) e senha do Gestor de Internet da OM serão definidos e informados pelo 2° CTA, via DIEx, pela Rede Mercúrio;
+d. Dados obrigatórios de cada usuário para cadastramento e acesso à Internet:
+&nbsp;&nbsp;&nbsp;&nbsp;1)<b> Nome Completo:</b> nome completo do usuário;
+&nbsp;&nbsp;&nbsp;&nbsp;2)<b> Nome de Guerra:</b> corresponde ao nome de guerra do militar. No caso de funcionário civil, preencher com o primeiro nome ou pelo nome que o identifica;
+&nbsp;&nbsp;&nbsp;&nbsp;3)<b> E-mail:</b> correio eletrônico do usuário, que deve ser pessoal. Ele será o login de acesso à Internet;
+&nbsp;&nbsp;&nbsp;&nbsp;4)<b> Posto/Graduação:</b> caso seja militar. Se for funcionário civil, escolher a opção “FC”;
+&nbsp;&nbsp;&nbsp;&nbsp;5)<b> Identidade:</b> número de Identidade do usuário cadastrado nos sistemas de administração de pessoal do Exército;
+&nbsp;&nbsp;&nbsp;&nbsp;6)<b> CPF:</b> número do Cadastro de Pessoa Física do usuário inscrito na Receita Federal do Brasil;
+&nbsp;&nbsp;&nbsp;&nbsp;7)<b> Perfil:</b> Nível de Acesso à Internet definido pelo Cmt/Ch/Dir da OM.
+e. Ao finalizar o cadastro, o usuário implantado receberá um e-mail cujo assunto será <b>“Ativação de Conta”</b>;
+f. O próximo passo será o usuário clicar no botão <b>“ATIVE SUA CONTA!”</b>. Ele será direcionado para aceitar o Termo de Adesão de acesso à Internet, como também digitar a senha desejada. Quanto à senha, o usuário deverá atentar para os requisitos exigidos no sistema;
+g. Caso haja algum problema no recebimento de e-mail pelo usuário, o Gestor de Internet poderá utilizar a opção <b>“MODIFICAR → REENVIAR ATIVAÇÃO”</b> para reiniciar o processo de cadastro;
+h. Se o usuário solicitar a mudança de sua senha, o Gestor usará a opção <b>“MODIFICAR → ALTERAR SENHA”</b>. O usuário receberá um e-mail contendo o assunto <b>“Mudança de Senha”</b> e, para completar o processo, o mesmo deverá clicar no botão <b>“MODIFIQUE SUA SENHA!”</b>;
+i. Na hipótese de o usuário esquecer a senha, o mesmo terá à disposição a opção <b>“ESQUECI A SENHA”</b>. Basta digitar o e-mail informado no cadastro e uma mensagem de assunto <b>“Recuperação de Senha”</b> será enviada.
+
+<b>6. Suporte Técnico 2° CTA</b>
+
+Em caso de dúvida, favor entrar em contato através dos canais de comunicação disponíveis:
+
+a) Contato Telefônico:
+&nbsp;&nbsp;&nbsp;&nbsp;1) RITEx: <b>810-5695;</b>
+&nbsp;&nbsp;&nbsp;&nbsp;2) PABX: <b>(21) 2519-5695;</b>
+&nbsp;&nbsp;&nbsp;&nbsp;3) Horário de atendimento por telefone:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Segunda à quinta-feira:  das <b>08 h 30 min às 16 h;</b> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Sexta-feira:  de <b>08 h às 12 h.</b>
+b) E-mail: <b>atendimento@2cta.eb.mil.br;</b>
+c) Intranet: http://intranet.2cta.eb.mil.br;
+d) Portal de Serviços: http://servicos.2cta.eb.mil.br/portal.

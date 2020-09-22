@@ -1,0 +1,93 @@
+<!DOCTYPE html><!-- version 1.0 -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>SISCAU</title>
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+   
+	 <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="/node_modules/jquery-1.11.3.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <!-- Custom styles for this template -->
+    <link href="/SISCAU/CSS/recover.css" rel="stylesheet">
+
+	<script type="text/javascript" src="/SISCAU/JavaScript/recoverPost.js"></script>
+	<script type="text/javascript" src="/SISCAU/JavaScript/validaForm.js"></script>
+  </head>
+
+  <body>
+	
+	
+    <div class="container">
+
+    <form autocomplete = "off" id="envia" class="form-signin" method="post">
+        
+        <fieldset>
+        <h2 class="form-signin-heading">Cadastre a nova senha</h2>
+        </fieldset>
+        
+        <fieldset>
+        <label for="inputUser" class="sr-only">Nova Senha</label>
+        <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[!-/]|.*[:-@]|.*[\[-_]|.*[{-}])(?=.*[A-Z]).{8,}" title="Siga o formato descrito abaixo" type="password" id="password" class="form-control" Name="password" onkeyup="checkPass()"  placeholder="Nova Senha" required autofocus>
+        </fieldset>
+
+        
+		<fieldset>
+		<label for="inputOM" class="sr-only">Confirme a senha</label>
+        <input type="password" id="password2" class="form-control" Name="password2" placeholder="Confirme a senha"  onchange="validaPass()" required>
+		</fieldset>
+		
+		<fieldset>
+			<div class="alert alert-warning ">
+				Sua senha deve possuir no mínimo<br />
+				<font id="cglyqnt" color='red'><span id="glyqnt" class='glyphicon glyphicon-remove'></span></font> 8 digitos; <br />
+				<font id="cglymai" color='red'><span id="glymai" class='glyphicon glyphicon-remove'></span></font> 1 caracter maiúsculo; <br />
+				<font id="cglymin" color='red'><span id="glymin" class='glyphicon glyphicon-remove'></span></font> 1 caracter minúsculo; <br />
+				<font id="cglynum" color='red'><span id="glynum" class='glyphicon glyphicon-remove'></span></font> 1 numero; <br />
+				<font id="cglycar" color='red'><span id="glycar" class='glyphicon glyphicon-remove'></span></font> 1 caracter especial ex: !@#$%&*()+'"./-_;<=>?[\{}] ;
+			</div>
+		</fieldset>
+		
+        <fieldset>
+        <input id="contactSend" class="submit btn btn-lg btn-primary btn-block " type="submit" value="Send" />
+        </fieldset>
+		
+    </form>
+
+	
+
+    </div>
+    
+    <div id="credencialIncorreta"> </div>
+
+	
+
+    
+  </body>
+</html>

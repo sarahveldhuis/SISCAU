@@ -1,0 +1,32 @@
+    <form id="envia" class="form-signin" method="post">
+        
+        <fieldset>
+        <h2 class="form-signin-heading">Login</h2>
+        </fieldset>
+        
+        <fieldset>
+        <label for="inputUser" class="sr-only">Usuário</label>
+        <input type="text" id="inputUser" class="form-control" Name="user" placeholder="Usuario" required autofocus>
+        </fieldset>
+
+        <fieldset>
+        <label for="inputPassword" class="sr-only">Senha</label>
+        <input type="password" id="inputPassword" class="form-control" Name="password" placeholder="Senha" required>
+        </fieldset>
+
+		<fieldset>
+		<label for="inputOM" class="sr-only">OM</label>
+        <select  id="inputOM" class="form-control" Name="om"  required>
+        {{#oms}}
+         <option>{{om}}</option>
+        {{/oms}}
+        </select>
+        
+		</fieldset>
+		
+        <fieldset>
+        <input id="contactSend" class="submit btn btn-lg btn-primary btn-block " type="submit" value="Enviar" />
+        </fieldset>
+        
+    </form>
+	

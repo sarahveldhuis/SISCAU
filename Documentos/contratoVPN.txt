@@ -1,0 +1,49 @@
+<h> VPN </h>
+<b> Data: 14 Out 15</b>
+
+<b>1. Objetivo </b>
+
+Definir responsabilidades e estabelecer procedimentos a serem seguidos pelos usuários, com autorização prévia do Comandante, Chefe ou Diretor da Organização Militar, ao utilizarem a estrutura de acesso à Internet provido pelo 2º CTA.
+
+<b>2. Considerações Gerais</b>
+
+a. Faz-se necessária a leitura atenta de todos os itens abaixo, com o objetivo de possibilitar a assimilação e a conscientização sobre a Política de Acesso e aderência às boas práticas de uso da Internet;
+b. Este termo poderá ser alterado a qualquer momento pelo 2º CTA;
+c. Ao concordar com este Termo, o usuário estará aceitando as condições estabelecidas;
+d. O usuário deverá tomar conhecimento da legislação vigente no âmbito do Exército Brasileiro referente à área da Segurança da Informação;
+e. <b>O usuário é inteiramente responsável pela confidencialidade de seu nome de acesso (login) e senha, isto é, eles são IMPESSOAIS e INTRANSFERÍVEIS.</b>
+f. O usuário também é responsável por qualquer atividade que ocorra no âmbito de seu cadastro, inclusive o perfil associado; 
+g. Para garantir confidencialidade e transparência do processo, sem a participação de terceiros, adotar-se-á a seguinte sistemática:
+&nbsp;&nbsp;&nbsp;&nbsp;1) O usuário receberá uma mensagem pelo correio eletrônico para cadastrar a senha desejada e concordar com este Termo;
+&nbsp;&nbsp;&nbsp;&nbsp;2) Se o usuário esquecer sua senha, haverá uma opção na página de autenticação, onde ele poderá marcar este fato e então receberá um novo e-mail; e
+&nbsp;&nbsp;&nbsp;&nbsp;3) Caso deseje, o usuário também poderá alterar sua senha.
+
+<b>3. Política de Acesso à Internet</b>
+
+a. Para usufruir do acesso à Internet provido pelo 2º CTA ou, ainda, por provedor privado contratado pela OM, o usuário concorda em:
+&nbsp;&nbsp;&nbsp;&nbsp;1) Não utilizar tal recurso para fins ilegais;
+&nbsp;&nbsp;&nbsp;&nbsp;2) Não utilizar o acesso para transmitir/divulgar material ilegal, difamatório, que viole a privacidade de terceiros, ou que seja abusivo, ameaçador, obsceno, prejudicial, injurioso, ou de qualquer outra forma censurável nos termos da lei e Instruções Gerais e Reguladoras do Exército Brasileiro;
+&nbsp;&nbsp;&nbsp;&nbsp;3) Não transmitir e/ou divulgar qualquer material que viole direitos de terceiros, incluindo direitos de propriedade intelectual;
+&nbsp;&nbsp;&nbsp;&nbsp;4) Não enviar mensagens não solicitadas, conhecidas como "spam";
+&nbsp;&nbsp;&nbsp;&nbsp;5) Não difamar, ofender, perturbar a tranquilidade alheia, perseguir, ameaçar ou, de qualquer outra forma, violar direitos de terceiros;
+&nbsp;&nbsp;&nbsp;&nbsp;6) Não publicar, postar, carregar, distribuir ou divulgar quaisquer tópicos, nomes, materiais ou informações que incentivem a discriminação, ódio ou violência com relação a uma pessoa ou a um grupo devido à sua raça, religião, nacionalidade, orientação sexual e política;
+&nbsp;&nbsp;&nbsp;&nbsp;7) Não utilizar este benefício para enviar/divulgar quaisquer tipos de vírus ou arquivos que possam causar danos a terceiros;
+&nbsp;&nbsp;&nbsp;&nbsp;8) Não praticar atos que violem quaisquer leis, regulamentos, normas, decretos e/ou portarias emitidos por qualquer autoridade competente;
+&nbsp;&nbsp;&nbsp;&nbsp;9) Não obter ou tentar obter acesso não autorizado a outros sistemas ou redes de computadores conectados ao serviço.
+b. Diante um de comportamento suspeito e inadequado, o usuário poderá ter seu acesso bloqueado, automaticamente, pelo sistema ou por decisão da autoridade competente; e
+c. Os registros de acesso dos usuários poderão ser gravados, para possíveis consultas pela autoridade competente, e serão mantidos sobre sigilo e autenticidade.
+
+<b>4. Responsabilidade</b>
+
+O usuário assume todos os ônus e a responsabilidade decorrente de seus atos e de sua conduta ao utilizar a Internet, respondendo pelos atos que terceiros praticarem em seu nome, por meio do uso de seu nome de acesso e/ou senha.
+
+<b>5. Normas de Segurança</b>
+
+As normas de segurança para utilização da Internet estão reguladas pelas Instruções Gerais para Utilização da Rede Mundial de Computadores pelo Exército Brasileiro (EB10-IG-01.010, 2ª ed., 2015) e pelos documentos listados no seu Art. 31.
+
+<b>6. Considerações Finais</b>
+
+As dúvidas de acesso devem ser sanadas junto ao Setor de Tecnologia da Informação da sua Organização Militar. Caso não possa resolver, este Setor deve entrar em Contato com o 2° CTA, através dos canais de comunicação disponíveis:
+
+a. Embora o Sistema de Telemática do Exército (SisTEx), formado pelas Organizações Militares de Telemática (CITEx/CTA/CT), utilize as melhores tecnologias e empenhe seus maiores esforços, não possui condições de controlar a ausência de vírus nos conteúdos trafegados, nem a ausência de outros elementos que possam produzir alterações nos equipamentos do usuário ou nos documentos eletrônicos armazenados e/ou transmitidos a partir destes equipamentos. Portanto, não pode ser responsabilizado por quaisquer danos e/ou prejuízos, de qualquer natureza, que possam decorrer da presença de vírus ou de outros elementos nocivos nos conteúdos disponibilizados, que produzam alterações e/ou danos nos equipamentos do usuário;
+b. Destaca-se que os mesmos procedimentos constantes deste Termo de Adesão deverão ser seguidos pelos usuários no caso de acesso à Internet provido por empresa privada contratada diretamente pela OM, sem a gerência do 2º CTA.

@@ -1,0 +1,14 @@
+<table id="Tabela" class="table table-bordered table-modifica table-hover ">
+	<thead>
+		<tr>
+			<th class="{sorter: 'posto'}">Posto</th><th>Nome de guerra</th><th>Nome completo</th><th>E-mail</th><th>Perfil</th><th>Vpn</th><th>Excluir</th><th>Editar</th><th>Reenviar<br />ativação</th><th>Alterar<br />senha</th>
+		</tr>
+	</thead>
+	<tbody>
+	{{#users}}
+		<tr>
+			<th>{{posto}}</th><th>{{nomeguerra}}</th><th>{{cn}}</th><th>{{mail}}</th><th>{{servicos.Internet}}</th><th>{{servicos.VPN}}</th><th><a id="remover" data-cpf="{{cpf}}"  href="#"><font color="red"><span class="glyphicon glyphicon-remove"></span></font></a></th><th><a  id="modificar" data-cpf="{{cpf}}" href="#"><font color="blue"><span class="glyphicon glyphicon-pencil"></span></font></a></th><th><a  id="reativa" data-cpf="{{cpf}}" href="#"><font color="blue"><span class="glyphicon glyphicon-envelope"></span></font></a></th><th><a  id="novasenha" data-cpf="{{cpf}}" href="#"><font color="blue"><span class="glyphicon glyphicon-lock"></span></font></a></th>
+		</tr>
+	{{/users}}
+	</tbody>
+</table>

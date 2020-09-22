@@ -1,0 +1,200 @@
+<!DOCTYPE html><!-- version 1.0 -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SISCAU</title>
+
+<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+<script src="/node_modules/jquery-1.11.3.min.js"></script>
+<script src="/node_modules/jquery.tablesorter.js"></script>
+
+<link href="/SISCAU/CSS/loader.css" rel="stylesheet">
+<link href="/SISCAU/CSS/portal.css" rel="stylesheet">
+<link href="/SISCAU/CSS/table.css" rel="stylesheet">
+
+<script src="/SISCAU/JavaScript/getLog.js"></script>
+<script src="/SISCAU/JavaScript/load.js"></script>
+
+<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+
+</head>
+<body>
+
+<!--************Inclusão do alert aos administradores (ST Mathias)*********************************************************-->
+<!-- Modal -->
+<div class="modal fade" id="ModalAdm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+          <h5 class="p-3 mb-2 bg-danger text-white">Atenção administradores para novas funcionalidades no SISCAU <span class="badge badge-secondary">Novo</span></h5>
+        <!--<h5 class="modal-title" id="exampleModalLongTitle">Atenção Administradores para novas funcionalidades no SISCAU</h5>-->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          
+              <p class="p-3 mb-2 bg-primary text-white">Menu Trocar Adm: Inclusão do módulo para troca do administrador do SISCAU.</p>
+              <p class="p-3 mb-2 bg-primary text-white">Menu Modificar: Quadro resumo de VPN e inclusão da coluna VPN, permitindo o adm identificar os usuários que possuem perfil VPN.</p>
+          
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal">Fechar</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+<!--****************************************************************************************-->
+
+<div id="loader-wrapper">
+			<div id="loader"></div>
+			<div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+</div>
+
+<div class="corpo">
+
+  <div class="header">
+     <div class="logo wrapper">
+        <div class="nome">
+	        <a id="portal-logo" title="SISCAU" href="#">
+	            <span >Sistema de Controle de Acesso de Usuários</span>
+	            <span class="title" >SISCAU</span>
+	            <span>2º Centro de Telemática de Área</span>
+	        </a>
+        </div>
+        <div class="imagem">
+        	<img src="/SISCAU/Images/logo.png" alt="logo cta" >
+        </div>
+     </div>
+     <div class="nav-bar">
+     	<div class="nav wrapper">
+     	<ul class="navbar">
+     	<li id="liom"><a id="om" href="#"></a></li>
+     	</ul>
+     	<ul class=" navbar-right">     
+     	
+     	<li id="licad"><a id="cadastrar" href="#">Incluir</a></li>
+        
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Visualizar<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+           	<li id="livis"><a  id="ativos" href="#" title="Usuários que já aceitatam o termo de uso">Usuários validados</a></li>
+           	<li id="lialt"><a  id="inativos" href="#"title="Usuários que não aceitatam o termo de uso">Usuários não validados</a></li>
+                <li id="lialtvpn"><a  id="inativosvpn" href="#"title="Usuários que não aceitatam o termo de uso de VPN">Usuários não validados VPN</a></li>
+         </ul>
+        </li>
+        
+        <li id="lialt"><a id="alterar" href="#">Modificar</a></li>
+        <!Inclusão do menu trocar admin!>
+        <li id="litrc"><a id="trocaradm" href="#">Trocar Adm</a></li>
+        <!Fim da Inclusão do menu trocar admin!>
+        <li id="liout"><a id="sair" href="#">Sair</a></li>
+     	</ul>
+     	</div>
+     </div> 
+  </div>
+  
+  <div id = "Conteudo" class="wrapper"></div>
+  
+  <div class= "footer">
+  <div class="row wrapper">
+  <div class="col-md-4">
+	  <dl>
+		  <dt>Instruções de uso</dt>
+		  <dd><a  id="helpIncluir" href="#" >Incluir usuário</a></dd>
+		  <dd><a  id="helpModificar" href="#" >Modificar usuário</a></dd>
+	  </dl> 
+  </div>
+  
+    <div class="col-md-4">
+	  <dl>
+		  <dt>Termos de Uso</dt>
+		  <dd><a  id="termoGestor" href="#" >Gestor de Internet</a></dd>
+		  <dd><a  id="termoUsuario" href="#" >Usuário final</a></dd>
+	  </dl> 
+  </div>
+  
+    <div class="col-md-4">
+	  <dl>
+		  <dt>Central de atendimento</dt>
+		  <dd><a  href="http://intranet.2cta.eb.mil.br/" target="_blank" >Contato</a></dd>
+		  <dd><a  href="http://servicos.2cta.eb.mil.br/portal/" target="_blank" >Portal de serviços</a></dd>
+	  </dl> 
+  </div>
+  </div>
+	<div class= "extra-footer">
+  <div class="wrapper">
+  <p>Desenvolvido pelo 2º Centro de Telemática de Área</p>
+  </div>
+  </div>
+  </div>
+  
+  
+</div>
+
+
+<script src="/node_modules/jquery.maskedinput.min.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/node_modules/mustache.js-master/mustache.js"></script>
+
+
+<script src="/SISCAU/JavaScript/Navegacao.js"></script>
+<script src="/SISCAU/JavaScript/Navegacaohelp.js"></script>
+<script src="/SISCAU/JavaScript/populateTable.js"></script>
+<script src="/SISCAU/JavaScript/postFiltro.js"></script>
+<script src="/SISCAU/JavaScript/changeItem.js"></script>
+<script src="/SISCAU/JavaScript/removeItem.js"></script>
+<script src="/SISCAU/JavaScript/reativaItem.js"></script>
+<script src="/SISCAU/JavaScript/novasenhaItem.js"></script>
+<script src="/SISCAU/JavaScript/postCadastro.js"></script>
+<script src="/SISCAU/JavaScript/postModifica.js"></script>
+<script src="/SISCAU/JavaScript/validaForm.js"></script>
+<script src="/SISCAU/JavaScript/loginsession.js"></script>
+
+   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">O seu login expirou! Entre novamente com suas credenciais</h4>
+      </div>
+      <div class="modal-body">
+        
+        <label for="inputUser" class="sr-only">Usuário</label>
+        <input type="text" id="inputUser" class="form-control" Name="user" placeholder="Usuario" required autofocus>
+	    
+	    <label for="inputPassword" class="sr-only">Senha</label>
+        <input type="password" id="inputPassword" class="form-control" Name="password" placeholder="Senha" required>
+	    
+	    
+    	<div id="credencialIncorreta"> </div>
+      </div>
+      <div class="modal-footer">
+        <button id="cancelBt" type="button" class="btn btn-default" >Cancelar</button>
+        <button id="sendBt"   type="button" class="btn btn-default">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

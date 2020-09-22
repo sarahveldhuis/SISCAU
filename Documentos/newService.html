@@ -1,0 +1,153 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<style type="text/css">
+		
+		/* Client-specific Styles */
+		#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+		body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+		body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+		/* Reset Styles */
+		body{margin:0; padding:0;}
+		img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+		table td{border-collapse:collapse;}
+		#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+	
+		.standardCSS{
+        	color:#505050;
+        	font-size:15px;
+    	}
+
+    	@media only screen and (max-width:480px){
+        	.mediaQueryCSS{
+            	color:#CCCCCC;
+            	font-size:20px;
+       		 }
+       		 .flexibleImage{
+            	max-width:126px !important;
+            	height:auto !important;
+            	width 100% !important ;
+            	
+	        }
+
+        	.flexibleContainer{
+            	display:block !important;
+            	width:100% !important;
+            	
+        	}
+        	.emailButton{
+            	max-width:600px !important;
+            	width:100% !important;
+        	}
+
+	        .emailButton a{
+	            display:block !important;
+	            font-size:18px !important;
+	        }
+	        #bodyTable{
+	            display:block !important;
+	            width:100% !important;
+	        }
+	        #emailContainer{
+	            display:block !important;
+	            width:100% !important;
+	        }
+    	}
+	</style>
+	
+  </head>
+  <body  >
+	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+	    <tr>
+	        <td align="center" valign="top">
+	            <table border="0" cellpadding="0" cellspacing="0" width="600" style=" border: 1px solid #DDDDDD;" id="emailContainer">
+	                <tr>
+	                    <td align="center" valign="top">
+	                        <table border="0" cellpadding="0" cellspacing="0" width="100%" id="emailHeader">
+	                            <tr>
+	                                <td align="center" valign="top">
+										<table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#2b934f;" >
+										    <tr>
+										        <td valign="top" style="padding-top:20px; ">
+										            <table  class="flexibleContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="20%" >
+										                
+										                <tr  rowspan="2">
+										                    <td  align="center" valign="top" >
+										                        <img src="https://siscau.2cta.eb.mil.br/SISCAU/Images/logo.png" class="flexibleImage" style="max-width:102" />
+										                    </td>
+										                </tr>
+										              
+										            </table>
+										            <table align="right" border="0" cellpadding="5%" cellspacing="0" width="80%" class="flexibleContainer">
+										                <tr>
+										                    <td valign="top" style="color:#FFFFFF; font-family:Helvetica; font-size:16px; line-height:125%; text-align:left; padding-bottom:20px;">
+										                        <h3>Parabens!</h3>
+										                        Você acaba de ser disponibilizado um novo serviço para o seu usuário
+										                    </td>
+										                    
+										                </tr>
+										                
+										            </table>
+										            
+										        </td>
+										    </tr>
+										</table>	                                   
+	                                </td>
+	                            </tr>
+	                        </table>
+	                    </td>
+	                </tr>
+	                <tr>
+	                    <td align="center" valign="top">
+	                        <table border="0" cellpadding="20" cellspacing="0" width="100%"  id="emailBody">
+	                            <tr>
+	                                <td align="center" valign="top" style="background-color:#ebebeb; text-align:left">
+	                                    <span style="color=#232925; font-size:22px;"> Informações da conta:</span>
+	                                	<br /><br />
+	                                	Nome de guerra: <a href="#">'.$nome.'</a>
+	                                	<br />
+	                                	Posto: <a href="#">'.$posto.'</a>
+	                                	<br />
+	                                	Login: <a href="#">'.$mail.'</a>
+	                                	<br /><br />
+	                                	Ative o servico pelo botão abaixo e desfrute dos serviços providos por este centro <br />
+	                                	
+	                                	<br /><br />
+	                                	<span style="color=#232925; font-size:22px;"> Duvidas?</span>
+	                                	<br /> <br />
+	                                	Entre em contato com o oficial de informática de sua OM
+	                                	<br /> <br />
+	                                	
+	                                	<table align="center" border="0" cellpadding="0" cellspacing="0" style="background-color:#48a969; border:1px solid #74c690; border-radius:5px;" class="emailButton">
+													    <tr>
+													        <td  valign="bottom" style="color:#FFFFFF; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:bold; letter-spacing:-.5px; line-height:150%; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px;">
+													            <a href="https://siscau.2cta.eb.mil.br/SISCAU/PHP/first.php?uuid='.$uuid.'" target="_blank" style="color:#FFFFFF; text-decoration:none;">Ative sua conta!</a>
+													        </td>
+													    </tr>
+													</table>
+	                                </td>
+	                            </tr>
+	                        </table>
+	                    </td>
+	                </tr>
+	                <tr>
+	                    <td align="center" valign="top">
+	                        <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailFooter">
+	                            <tr>
+	                                <td align="center" valign="top" style="background-color:#2b934f; color:#FFFFFF; font-size: 0.8em; text-align:right">
+	                                   2º Centro de Telemática de Área <br />
+	                                    Telefone: (21) 2519-5706 - Fax: (21) 2519-2509 - RITEx: 810-5706 <br />
+	                                </td>
+	                            </tr>
+	                        </table>
+	                    </td>
+	                </tr>
+	            </table>
+	        </td>
+	    </tr>
+	</table>
+
+  </body>
+</html>

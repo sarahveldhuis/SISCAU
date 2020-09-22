@@ -1,0 +1,49 @@
+<!DOCTYPE html><!-- version 1.0 -->
+<html>
+<head>
+
+<title>Portal de Cadastro</title>
+
+
+
+
+<script>
+var  filtro= "cn=.*";
+populares(filtro,"ConteudoModresumo#", true , "resumo");
+popula(filtro,"#ConteudoMod", true , "users");
+</script>
+</head>
+
+<body>
+
+
+<div id = "Busca" class="container">
+<form id="formFiltro"  role="form"  method="post">
+    <div class="form-group">
+      <div class="col-xs-3">
+        <select required class="form-control col-xs-3" id="filtroAttr" name="FiltroAttr">  		
+			<option>Nome Completo</option>
+			<option>Nome de guerra</option>
+			<option>E-mail</option>
+			<option>Posto</option>
+			<option>Identidade</option>
+			<option>CPF</option>
+			<option>Perfil</option>
+  		</select>
+      </div>
+      <div class="col-xs-6">        
+        <input required type="text" class="form-control" id="filtro" placeholder="Filtro" onkeypress="postFiltro(true)">
+      </div>
+      <div class="col-xs-3  btn-group">
+      	<button type="button" onclick="postFiltro(true)" class="btn btn-default">Busca</button>
+      	<button type="button" onclick="postFiltro(false)" class="btn btn-default">Limpa</button>
+      </div>
+    </div>
+  </form>
+        	
+</div>
+        <div id = "ConteudoModresumo" class="container tablecontainer"></div>
+	<div id = "ConteudoMod" class="container tablecontainer"></div>
+
+</body>
+</html>

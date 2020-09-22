@@ -1,0 +1,22 @@
+   <!-- version 1.0 Desenvolvida pelo ST Mathias em (Mar/19)-->        
+    
+      <label class="control-label col-sm-2" for="CPF" >Administrador:</label>
+      <div class="col-sm-5">
+
+      <select  disabled class="form-control" id="cpf" name="cpf" data-toggle="internet" data-trigger="click">
+
+    	{{#cpfs}}
+         <option value = "{{cpf}}">{{desc}}</option>
+        {{/cpfs}}
+  	</select>
+       
+      	<input  disabled type="hidden" id="cn">
+      </div>
+      <a id = "locker" data-formitem="cpf" href="#">
+          <span class="glyphicon glyphicon-lock"></span>
+      </a>
+   
+		
+    
+   
+	

@@ -1,0 +1,75 @@
+<!DOCTYPE html><!-- version 1.0 -->
+<html lang="en">
+  <head>
+
+   
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>SISCAI</title>
+   
+	 <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="/node_modules/jquery-1.11.3.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <!-- Custom styles for this template -->
+    <link href="/SISCAU/CSS/mudasenha.css" rel="stylesheet">
+
+    
+   <script type="text/javascript" src="/SISCAU/JavaScript/mudasenha.js"></script>
+
+  </head>
+
+  <body>
+	
+	
+    <div class="container">
+
+    <form id="envia" class="form-signin" method="post">
+        
+        <fieldset>
+        <h2 class="form-signin-heading">Modifique sua senha!</h2>
+        </fieldset>
+        
+        <fieldset>
+        <label for="inputUser" class="sr-only">Usuário</label>
+        <input type="text" id="inputUser" class="form-control" Name="user" placeholder="Usuario" disabled autofocus>
+        </fieldset>
+
+        <fieldset>
+        <label for="inputPassword" class="sr-only">Senha Antiga</label>
+        <input type="password" id="inputPassword" class="form-control" Name="password" placeholder="Senha Antiga" required>
+        </fieldset>
+
+        <fieldset>
+        <label for="inputPassword" class="sr-only">Nova Senha</label>
+        <input type="password" id="inputPassword" class="form-control form-novasenha" Name="password" placeholder="Nova Senha" required>
+        </fieldset>
+        
+        <fieldset>
+        <label for="inputPassword" class="sr-only">Confirme a senha</label>
+        <input type="password" id="inputPassword" class="form-control form-novasenha" Name="password" placeholder="Confirme a senha" required>
+        </fieldset>
+		
+        <fieldset>
+        <input id="contactSend" class="submit btn btn-lg btn-primary btn-block " type="submit" value="Enviar" />
+        </fieldset>
+
+    </form>
+	
+    </div>
+	    
+    <div id="credencialIncorreta"> </div>
+
+	
+
+
+
+  </body>
+</html>

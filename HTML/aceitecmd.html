@@ -1,0 +1,88 @@
+<!DOCTYPE html><!-- version 1.0 -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Portal de Internet</title>
+   
+	 <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="/node_modules/jquery-1.11.3.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <!-- Custom styles for this template -->
+    <link href="/SISCAU/CSS/primeiro.css" rel="stylesheet">
+
+	<script type="text/javascript" src="/SISCAU/JavaScript/aceiteOm.js"></script>
+
+ 
+ <script>
+ $(function(){
+	 $.ajax({
+			url:"/SISCAU/Documentos/contratoCmd.txt",
+			type:"get",
+			success: function( response ) {
+				$("#termos").append(response);
+			}	
+		});
+ 
+ });
+ </script>
+  </head>
+
+  <body>
+	
+	
+    <div class="container">
+			<p style="font-size: 20px;  font-weight: 700; text-align:center">Termo de responsabilidade do Cmt/Ch/Dir</p>
+			<div  id = "termos"  class="pre-scrollable " ></div>
+	<form autocomplete = "off" id="envia" class="form-signin" method="post">
+	
+		<fieldset>
+		<div style="padding-top: 5px; font-size: 15px;  font-weight: 700; text-align:center" class="checkbox">
+      	<input id="aceite"  type="checkbox" required> Eu na condição de Cmt/Ch/Dir concordo e aceito o termo acima.
+    	</div>
+		</fieldset>
+   		
+   		 <fieldset>
+        <input id="contactSend" class="submit btn btn-lg btn-primary btn-block " type="submit" value="Enviar" />
+        </fieldset>
+        
+         <fieldset>
+        <input id="contactCancel" class="submit btn btn-lg btn-danger btn-block " data-toggle="modal" data-target="#myModal"  value="Cancelar" />
+        </fieldset>
+        
+		
+    </form>
+    </div>
+    
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Tem certeza que deseja recusar?</h4>
+      </div>
+      <div class="modal-body">
+        Para permitir o acesso à internet da Unidade<br /> O Cmd/Ch/Dir deverá aceitar o Termo de Responsabilidade
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
+        <button id="refuseBt" type="button" class="btn btn-default">Sim</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+	
+
+    
+  </body>
+</html>
