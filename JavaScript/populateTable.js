@@ -4,10 +4,19 @@
 // *********************Monta a tabela do menu modificar p editar os usuários****************** 
 function popula(filter , id , remove ,fieldId ){
 	var Table = JSON.parse(sessionStorage.getItem('usersTable'));        
-	var fields = filter.split("=");               
+	var fields = filter.split("=");
+	// dicionário               
 	var data  = { count: 0 };
+
+	// The $.map() method applies a function to each item in an array or object and maps the results into a new array.
+	// $.map( realArray, function( val, i ) { Do something });
 	data["users"] = $.map( Table[fieldId] , function( n, i ) {
+		// fields[1] = ".*"
+		// "i": Perform case-insensitive matching
+		// primeiro parâmetro de RegExp é uma string
+		//RegExp constrói uma expressão regular
 		  var patt = new RegExp(fields[1] , "i");
+		// fields[0] = "cn"
 		  var attr = fields[0];
 		  var val = n[attr];                  
 		  if(patt.test(val)){
