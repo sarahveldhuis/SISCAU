@@ -20,7 +20,8 @@ function postCadastro(){
 	var mail = document.getElementById("mail").value;
 	var Posto = document.getElementById("Posto").value;
 	var Identidade = document.getElementById("Identidade").value;
-	var CPF = document.getElementById("identificacao").value;
+	var CPF = document.getElementById("CPF").value;
+	
 	mail = mail.toString();
 	mail = mail.toLowerCase(); 
 	CPF = CPF.toString();
@@ -58,7 +59,7 @@ function postCadastro(){
 			   "E-mail:"         + mail         +"\n" +
 			   "Posto:"          + Posto        +"\n" +
 			   "Identidade:"     + Identidade   +"\n" +
-			   "Identificação:  "          + CPF          +"\n" +
+			   "CPF:  "          + CPF          +"\n" +
 			   "Perfil:"         + Perfil 
 	)){
 		$.ajax({
