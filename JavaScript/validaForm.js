@@ -4,6 +4,7 @@
  */
 
 function validaCpf(cpf) {
+	if($('#identificacao').val() == 1) {
 	cpf = cpf.toString();
 	cpf = cpf.replace(/[^0-9]/g,'');
 	var Soma;
@@ -41,7 +42,9 @@ function validaCpf(cpf) {
 		return false;
 	}
 	document.getElementById("CPF").setCustomValidity('');
+}
 	return true;
+    
 }
 // Funcao de validacao de senhas
 function validaPass(){

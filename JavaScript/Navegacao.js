@@ -2,7 +2,7 @@
  * version alterada pelo ST Mathias em (Mar/19)
  */
 $(function(){
-	$("#cadastro_cpf").click(function(){
+	$("#cadastrar").click(function(){
 
     	$("#Conteudo").empty();
     	$("#Conteudo").load("/SISCAU/HTML/cadastro.html" , function(){
@@ -11,18 +11,7 @@ $(function(){
     		$('[data-toggle="VPN"]').popover({html:true,
             	content:sessionStorage.vpn});
     	} );
-	});
-	$("#cadastro_passaporte").click(function(){
-
-    	$("#Conteudo").empty();
-    	$("#Conteudo").load("/SISCAU/HTML/cadastro_passaporte.html" , function(){
-    		$('[data-toggle="internet"]').popover({html:true,
-            	content:sessionStorage.perfil});
-    		$('[data-toggle="VPN"]').popover({html:true,
-            	content:sessionStorage.vpn});
-    	} );
-	});
-	
+    });
     $("#ativos").click(function(){
     	$("#Conteudo").empty();
     	var  filtro= "cn=.*";
@@ -71,7 +60,14 @@ $(function(){
     							'O seu navegador não suporta videos	'+
     							'</video>');*/
 
+	});
+	
+	$("#helpIncluir").click(function(){
+    	$("#Conteudo").empty();
+    	$("#Conteudo").load("/SISCAU/HTML/cadastro.html");
+
     });
+
     $("#sair").click(function(){
     	$.ajax({
     		url:"/SISCAU/PHP/logOut.php",

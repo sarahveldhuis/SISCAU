@@ -2,10 +2,54 @@
 <html>
 <head>
 
+  <style>
+   .select {
+     outline: none;
+   font-weight: bold;
+    width: 130px;
+    height: 40px;
+   text-align: right ;
+   text-align-last: right ;
+   border: none;
+
+   }
+
+  </style>
+
+
+  <script>
+    
+    alteraDiv = function (){
+      if($('#identificacao').val() == 1) {
+        $("#CPF").mask("999.999.999-99",{completed:function(){validaCpf($("#CPF").val());}});
+        document.getElementById('CPF').value='';
+        $('#CPF').attr('placeholder','CPF');
+
+        }
+		else if($('#identificacao').val() == 2) {
+
+      $("#CPF").unmask();
+      $('#CPF').attr('placeholder','Número do Passaporte para Militares Estrangeiros SEM CPF');
+     
+      document.getElementById('CPF').value='';
+      
+		}
+        
+    } 
+    </script>
+
 <script type="text/javascript">
-	$(function() {
-		$("#CPF").mask("999.999.999-99",{completed:function(){validaCpf($("#CPF").val());}});
-	});
+
+/*	$(function() {
+    alert($('#identificacao').val());
+    if($('#identificacao').val() == 1)
+    {
+    $("#CPF").mask("999.999.999-99",{completed:function(){validaCpf($("#CPF").val());}});
+    }
+
+  }); */
+  
+
 </script>
 
 </head>
@@ -14,6 +58,7 @@
 
 <div class="container">
   <h2 style="text-align:center">Novo Cadastro</h2>
+ 
   <form autocomplete = "off" id="formCadastro" class="form-horizontal" role="form"  method="post">
     
     <div class="form-group">
@@ -74,27 +119,39 @@
         <input type="text" class="form-control " id="Identidade" name="Identidade"  placeholder="Identidade">
       </div>
     </div>
+
+   
     
-    <div class="form-group">
-      <label class="control-label col-sm-2" for="CPF" >CPF:</label>
+    <div class="form-group" style="padding-left: 4.8%;">
+       
+        <select name="identificacao" class="control-label col-sm-2 select" id="identificacao" onchange="alteraDiv()"   >
+         <option value="1" style="font-weight: bold; text-align: right;">CPF:</option>
+         <option value="2" style="font-weight: bold; text-align: right;">Passaporte:</option>
+        </select>  
+      
+    
+        
       <div class="col-sm-8">
-        <input required type="text" class="form-control " id="identificacao" name="CPF"  placeholder="CPF">
+        <input required type="text" class="form-control " id="CPF" name="CPF"  placeholder="CPF" style="width: 690px;" onclick="alteraDiv()">
       </div>
+      
+    
     </div>
+
     
      <div class="row form-group">
       <label class="control-label col-sm-2" for="Perfil" >Perfil de internet:</label>
       <div class="col-sm-1">
-       <select  required class="form-control" id="Perfil" name="Perfil" data-toggle="internet" data-trigger="click" >
+      <select  required class="form-control" id="Perfil" name="Perfil" data-toggle="internet" data-trigger="click" >
 
     		<option >0</option>
     		<option >1</option>
     		<option >2</option>
-   		<option >3</option>
+   		  <option >3</option>
     		<option >4</option>
     		<option >5</option>
     		<option >6</option>
-   		<option >7</option>
+   		  <option >7</option>
     		<option >8</option>
     		<option >9</option>
   		</select>
